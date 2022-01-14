@@ -1,0 +1,118 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple",
+            "nbt": "{CustomModelData: 1}"
+        },
+        "title": "Blaze",
+        "description": "Find and eat 5 more super apple",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "advance:level/level1",
+    "criteria": {
+        "2": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 2
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "3": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 3
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "4": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 4
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "5": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 5
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "6": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 6
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        }
+    },
+    "requirements": [["2"], ["3"], ["4"], ["5"], ["6"]]
+}

@@ -1,0 +1,229 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 3.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:diamond"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Super Apple\",\"color\":\"red\",\"italic\":false}'},CustomModelData:1,Super: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:iron_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.9
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display: {Name: '{\"text\": \"Pickaxe Shovel\", \"color\": \"aqua\", \"italic\": false}'}, CustomModelData: 2, tool_ps: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.9
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display: {Name: '{\"text\": \"Pickaxe Shovel\", \"color\": \"aqua\", \"italic\": false}'}, CustomModelData: 2, tool_ps: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:iron_axe",
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.9
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display: {Name: '{\"text\": \"Axe Pickaxe\", \"color\": \"aqua\", \"italic\": false}'}, CustomModelData: 2, tool_ap: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.9
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display: {Name: '{\"text\": \"Axe Pickaxe\", \"color\": \"aqua\", \"italic\": false}'}, CustomModelData: 2, tool_ap: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:iron_axe",
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.9
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display: {Name: '{\"text\": \"Axe Shovel\", \"color\": \"aqua\", \"italic\": false}'}, CustomModelData: 3, tool_as: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_axe",
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 0.9
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display: {Name: '{\"text\": \"Axe Shovel\", \"color\": \"aqua\", \"italic\": false}'}, CustomModelData: 3, tool_as: 1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 5.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:iron_ingot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:gold_ingot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:bread"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:iron_pickaxe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:coal"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:stick"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:iron_shovel"
+                }
+            ]
+        }
+    ]
+}

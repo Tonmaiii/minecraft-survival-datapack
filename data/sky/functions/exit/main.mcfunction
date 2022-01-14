@@ -1,0 +1,1 @@
+execute as @e at @s if predicate sky:exit run function sky:exit/exit

@@ -1,0 +1,84 @@
+{
+    "parent": "advance:adventure/all_logs",
+    "display": {
+        "icon": {
+            "item": "minecraft:piglin_banner_pattern"
+        },
+        "title": "Patterns",
+        "description": "Obtain every Banner Pattern",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "flower": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:flower_banner_pattern"]
+                    }
+                ]
+            }
+        },
+        "creeper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:creeper_banner_pattern"]
+                    }
+                ]
+            }
+        },
+        "skull": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:skull_banner_pattern"]
+                    }
+                ]
+            }
+        },
+        "thing": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:mojang_banner_pattern"]
+                    }
+                ]
+            }
+        },
+        "globe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:globe_banner_pattern"]
+                    }
+                ]
+            }
+        },
+        "snout": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:piglin_banner_pattern"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["flower"],
+        ["creeper"],
+        ["skull"],
+        ["thing"],
+        ["globe"],
+        ["snout"]
+    ]
+}

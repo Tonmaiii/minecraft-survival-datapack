@@ -1,0 +1,20 @@
+{
+    "parent": "minecraft:end/respawn_dragon",
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "title": "Epic Battle",
+        "description": "Spawn a Wither with the Ender Dragon in The End",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fastion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["fastion"]]
+}

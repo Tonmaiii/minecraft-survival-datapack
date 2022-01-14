@@ -1,0 +1,1 @@
+execute at @e[type=marker,tag=skyPortal] as @e[distance=..1,tag=!skyPortal] at @s if predicate sky:portal_complete run function sky:enter/enter

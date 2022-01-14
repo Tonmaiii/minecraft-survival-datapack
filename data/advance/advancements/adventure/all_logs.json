@@ -1,0 +1,106 @@
+{
+    "parent": "minecraft:adventure/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_log"
+        },
+        "title": "All Logs",
+        "description": "Obtain every type of wood log, including the Nether logs",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "oak": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:oak_log"]
+                    }
+                ]
+            }
+        },
+        "birch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:birch_log"]
+                    }
+                ]
+            }
+        },
+        "acacia": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:acacia_log"]
+                    }
+                ]
+            }
+        },
+        "spruce": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:spruce_log"]
+                    }
+                ]
+            }
+        },
+        "dark_oak": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:dark_oak_log"]
+                    }
+                ]
+            }
+        },
+        "jungle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:jungle_log"]
+                    }
+                ]
+            }
+        },
+        "crimson": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:crimson_stem"]
+                    }
+                ]
+            }
+        },
+        "warped": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:warped_stem"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["oak"],
+        ["birch"],
+        ["acacia"],
+        ["spruce"],
+        ["dark_oak"],
+        ["jungle"],
+        ["crimson"],
+        ["warped"]
+    ]
+}

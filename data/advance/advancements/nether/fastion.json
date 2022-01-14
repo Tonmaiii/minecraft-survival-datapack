@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:nether/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "title": "Fastion",
+        "description": "Be in a Bastion Remnant and a Nether Fortress at the same time",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fastion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["fastion"]],
+    "rewards": {
+        "experience": 100
+    }
+}

@@ -1,0 +1,2 @@
+scoreboard objectives add t_half_heart dummy
+scoreboard objectives add t_death deathCount

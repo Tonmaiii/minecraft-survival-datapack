@@ -1,0 +1,1 @@
+execute as @a if predicate multitool:swappable at @s anchored eyes run function multitool:raycast

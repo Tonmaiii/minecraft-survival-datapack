@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "title": "",
+        "description": "",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "summoned": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:wither",
+                            "location": {
+                                "biome": "minecraft:the_end",
+                                "dimension": "minecraft:the_end"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["summoned"]],
+    "rewards": {
+        "function": "advance:check_ender_dragon"
+    }
+}

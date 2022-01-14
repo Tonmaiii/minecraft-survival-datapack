@@ -1,0 +1,10 @@
+data modify entity @s Offers.Recipes[0].priceMultiplier set value 0
+data modify entity @s Offers.Recipes[1].priceMultiplier set value 0
+data modify entity @s Offers.Recipes[2].priceMultiplier set value 0
+data modify entity @s Offers.Recipes[3].priceMultiplier set value 0
+data modify entity @s Offers.Recipes[4].priceMultiplier set value 0
+data modify entity @s Offers.Recipes[5].priceMultiplier set value 0
+data modify entity @s Offers.Recipes[6].priceMultiplier set value 0
+data modify entity @s Offers.Recipes[7].priceMultiplier set value 0
+data modify entity @s Offers.Recipes[8].priceMultiplier set value 0
+data modify entity @s Offers.Recipes[9].priceMultiplier set value 0

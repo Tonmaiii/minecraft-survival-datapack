@@ -1,0 +1,26 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{SelectedItem: {tag: {tool_ps: 1b}}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{SelectedItem: {tag: {tool_ap: 1b}}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{SelectedItem: {tag: {tool_as: 1b}}}"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "title": "",
+        "description": "",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "eat": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        }
+    },
+    "requirements": [["eat"]],
+    "rewards": {
+        "function": "super_apple:level_up"
+    }
+}

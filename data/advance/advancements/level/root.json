@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple",
+            "nbt": "{CustomModelData: 1}"
+        },
+        "title": "Leveling Up",
+        "description": "Eat more to level up",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "criteria": {
+        "eat": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        }
+    },
+    "requirements": [["eat"]]
+}

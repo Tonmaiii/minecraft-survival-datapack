@@ -1,0 +1,60 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "dimension": "minecraft:overworld",
+            "block": {
+                "blocks": [
+                    "minecraft:air",
+                    "minecraft:cave_air",
+                    "minecraft:water"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "predicate": {
+            "block": {
+                "blocks": ["minecraft:gold_block"]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "predicate": {
+            "block": {
+                "blocks": ["minecraft:gold_block"]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "blocks": ["minecraft:gold_block"]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "blocks": ["minecraft:gold_block"]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetY": -1,
+        "predicate": {
+            "block": {
+                "blocks": ["minecraft:gold_block"]
+            }
+        }
+    }
+]

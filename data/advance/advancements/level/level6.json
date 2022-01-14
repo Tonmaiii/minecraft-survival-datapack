@@ -1,0 +1,439 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple",
+            "nbt": "{CustomModelData: 1}"
+        },
+        "title": "Elder Guardian",
+        "description": "Find and eat 20 more super apple",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "advance:level/level5",
+    "criteria": {
+        "40": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 40
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "41": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 41
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "42": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 42
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "43": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 43
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "44": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 44
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "45": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 45
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "46": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 46
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "47": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 47
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "48": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 48
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "49": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 49
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "50": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 50
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "51": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 51
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "52": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 52
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "53": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 53
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "54": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 54
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "55": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 55
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "56": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 56
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "57": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 57
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "58": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 58
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        },
+        "59": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "t_xp": {
+                                "min": 59
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:golden_apple"],
+                    "nbt": "{Super: 1b}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["40"],
+        ["41"],
+        ["42"],
+        ["43"],
+        ["44"],
+        ["45"],
+        ["46"],
+        ["47"],
+        ["48"],
+        ["49"],
+        ["50"],
+        ["51"],
+        ["52"],
+        ["53"],
+        ["54"],
+        ["55"],
+        ["56"],
+        ["57"],
+        ["58"],
+        ["59"]
+    ]
+}

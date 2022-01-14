@@ -1,0 +1,14 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "feature": "bastion_remnant"
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "feature": "fortress"
+        }
+    }
+]

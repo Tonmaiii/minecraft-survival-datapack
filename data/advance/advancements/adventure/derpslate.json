@@ -1,0 +1,106 @@
+{
+    "parent": "advance:adventure/all_logs",
+    "display": {
+        "icon": {
+            "item": "minecraft:deepslate_diamond_ore"
+        },
+        "title": "Derpslate",
+        "description": "Obtain every type of Deepslate ores",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "coal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:deepslate_coal_ore"]
+                    }
+                ]
+            }
+        },
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:deepslate_coal_ore"]
+                    }
+                ]
+            }
+        },
+        "copper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:deepslate_coal_ore"]
+                    }
+                ]
+            }
+        },
+        "gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:deepslate_coal_ore"]
+                    }
+                ]
+            }
+        },
+        "redstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:deepslate_coal_ore"]
+                    }
+                ]
+            }
+        },
+        "emerald": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:deepslate_coal_ore"]
+                    }
+                ]
+            }
+        },
+        "lapis": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:deepslate_coal_ore"]
+                    }
+                ]
+            }
+        },
+        "diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:deepslate_coal_ore"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["coal"],
+        ["iron"],
+        ["copper"],
+        ["gold"],
+        ["redstone"],
+        ["emerald"],
+        ["lapis"],
+        ["diamond"]
+    ]
+}

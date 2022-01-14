@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title": "Close Call",
+        "description": "Kill a Player while on half a heart",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "advance:adventure/pvp",
+    "criteria": {
+        "kill_player": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player"
+                        }
+                    }
+                ],
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "nbt": "{Health: 1.0f}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["kill_player"]]
+}

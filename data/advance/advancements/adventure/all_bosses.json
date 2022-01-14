@@ -1,0 +1,59 @@
+{
+    "parent": "minecraft:adventure/kill_a_mob",
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "title": "All Bosses",
+        "description": "Kill all bosses",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ender_dragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "type": "minecraft:ender_dragon"
+                        },
+                        "entity": "this"
+                    }
+                ]
+            }
+        },
+        "wither": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "type": "minecraft:wither"
+                        },
+                        "entity": "this"
+                    }
+                ]
+            }
+        },
+        "elder_guardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "type": "minecraft:elder_guardian"
+                        },
+                        "entity": "this"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["ender_dragon"], ["wither"], ["elder_guardian"]]
+}
