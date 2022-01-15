@@ -4,7 +4,7 @@
             "item": "minecraft:golden_apple",
             "nbt": "{CustomModelData: 1}"
         },
-        "title": "Wither",
+        "title": "Ender Dragon",
         "description": "Find and eat 100 more super apple",
         "frame": "goal",
         "show_toast": true,

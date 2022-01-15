@@ -85,8 +85,8 @@ Can be found in
 | 6     | 40                 | 50     | Piglin Brute     |
 | 7     | 60                 | 80     | Elder Guardian   |
 | 8     | 100                | 100    | Ravager          |
-| 9     | 200                | 200    | Wither           |
-| 10    | 300                | 300    | Master           |
+| 9     | 200                | 200    | Ender Dragon     |
+| 10    | 300                | 300    | Wither           |
 
 Can be found in tressure chests in
 

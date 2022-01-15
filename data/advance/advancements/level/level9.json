@@ -4,7 +4,7 @@
             "item": "minecraft:golden_apple",
             "nbt": "{CustomModelData: 1}"
         },
-        "title": "Master",
+        "title": "Wither",
         "description": "Find and eat 300 more super apple",
         "frame": "challenge",
         "show_toast": true,
