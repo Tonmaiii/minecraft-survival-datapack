@@ -50,7 +50,7 @@
 -   Will change tool to the correct tool to break the block that the player is looking at
 -   The detected block must be within 6 blocks of the player
 -   If the tool does not have the correct tool to swap to, it will swap to the default tool
--   Will ignore blocks like Air, Water, Lava, Flowers (Extensive list in block tag [`#multitool:ray_cast_ignore`](./data/multitool/tags/blocks/ray_cast_ignore.json))
+-   Will ignore blocks like Air, Water, Lava, Flowers (Extensive list can be found in block tag [`#multitool:ray_cast_ignore`](./data/multitool/tags/blocks/ray_cast_ignore.json))
 
 | Tool           | Default Tool |
 | -------------- | ------------ |
@@ -109,6 +109,7 @@ Can be found in tressure chests in
 ### Terrain
 
 -   The Sky dimension has no floor or ceiling
+-   The bottom build limit is at `y: 64` and the top build limit is at `y: 320`
 -   The terrain is in a cloud-like formation
 -   The terrain consist of 3 blocks in a gradient from the bottom to top: White Concrete, White Wool, White Stained Glass
 
@@ -121,7 +122,7 @@ Can be found in tressure chests in
 
 -   A player will exit if their `y` coordinates is less than or equal to 60
 -   When exited the player will be teleported to the Overworld with their `x` and `z` coordinates divide by 12 and `y: 348`
--   The player will receive Resistance effect level 5 for 15 seconds
+-   The player will receive the Resistance effect level 5 for 15 seconds
 
 ### Phantom Boss
 
