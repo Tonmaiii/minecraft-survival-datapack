@@ -106,12 +106,27 @@ Can be found in tressure chests in
 
 ## Sky Dimension
 
--   Can be accessed by throwing a Chorus Fruit in a 1x1 hole made out of 5 Blocks of Gold
--   Can be exited by jumping off below y: 60
--   When entered will multiply the player coordinates by 12 and attempt to teleport the player on a block in an 8 block radius
--   When exited will divide the player coordinates by 12 in the overworld at y: 348 and be given Resistance 5 for 15 seconds
--   Dimension to spawn the Phantom Boss by throwing a book from the End City on a gold block
--   The Phantom Boss has 20 health, Resistance 3 and has an elytra in chestplate armor slot that has 100% chance of droping it
+### Terrain
+
+-   The Sky dimension has no floor or ceiling
+-   The terrain is in a cloud-like formation
+-   The terrain consist of 3 blocks in a gradient from the bottom to top: White Concrete, White Wool, White Stained Glass
+
+### Entering
+
+-   Build a portal by throwing a Chorus Fruit in a 1x1 hole made out of 5 Blocks of Gold
+-   The player will be teleported to the Sky dimension with their `x` and `z` coordinates multiply by 12 and `y: 348`, then the player will be attempted to `spreadplayer` with a radius of 8 blocks
+
+### Exiting
+
+-   A player will exit if their `y` coordinates is less than or equal to 60
+-   When exited the player will be teleported to the Overworld with their `x` and `z` coordinates divide by 12 and `y: 348`
+-   The player will receive Resistance effect level 5 for 15 seconds
+
+### Phantom Boss
+
+-   The phantom boss can only be spawned in the Sky dimension
+-   If the book from the End City is on a Block of Gold, the phantom boss will spawn removing the book and the Block of Gold
 
 The Phantom Boss has 3 phases
 
@@ -120,3 +135,9 @@ The Phantom Boss has 3 phases
 | 1     | 20     | -                          | Green         |
 | 2     | 10     | Spawn 3 Vexes              | Blue          |
 | 3     | 5      | Spawn 3 Phantoms and Vexes | Red           |
+
+## Other
+
+-   Changed the correct tool to break glass from None to Pickaxe
+-   Removed the Elytra from the End Ship and replaced with a book to be used to spawn the Phantom Boss
+-   Changed some structures
