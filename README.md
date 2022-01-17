@@ -41,7 +41,8 @@
 -   Every Wandering Trader gets inserted a trade at the beginning of 5 Emeralds for 1 Super Apple with 2 max uses
 -   Every Villager will not offer any discount or raised price (Not working properly)
 -   Every Diamond equipment trade except Diamond Hoe is replaced with the Iron equivalent
--   Glass trade from a Librarian Villager is raised from 1 emerald to 4 emeralds
+-   The price of every Enchanted Book trade from a Librarian Villager is raised to 64 Emeralds and 1 Book
+-   The price of Glass trade from a Librarian Villager is raised from 1 Emerald to 4 Emeralds
 
 ## Multitool
 
