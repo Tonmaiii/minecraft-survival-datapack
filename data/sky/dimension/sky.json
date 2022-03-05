@@ -6,7 +6,6 @@
         "settings": "sky:sky",
         "biome_source": {
             "type": "minecraft:fixed",
-            "seed": 0,
             "biome": "sky:sky"
         }
     }
